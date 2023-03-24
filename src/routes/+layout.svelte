@@ -2,4 +2,7 @@
     import Header from "$lib/Header.svelte";
 </script>
 
-<Header/>
+<div class="bg-dark text-light">
+    <Header />
+    <slot />
+</div>

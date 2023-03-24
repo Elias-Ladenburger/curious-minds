@@ -1,2 +1,12 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+    import Hero from "$lib/Hero.svelte";
+    import Button from "$lib/Button.svelte";
+    import AboutPage from "$lib/AboutPage.svelte";
+  </script>
+  
+  <Hero heroTitle="Welcome to <em class='bg-emphasis text-primary'>Curious Minds</em>."
+    heroSubtitle="The network for underutilized high potentials."
+    ><Button label="Find out more" link="about"/> 
+  </Hero>
+
+  <AboutPage />

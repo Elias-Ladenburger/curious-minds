@@ -1,10 +1,11 @@
 <script>
-    let home = {name: "Home", slug: ""}
-    let about = {name: "About", slug: "about"}
-    let community = {name: "Community", slug: "community"}
-    let contact = {name: "Contact", slug: "contact"}
+   export let menu =[
+        {name: "Home", slug: ""},
+        {name: "About", slug: "about"},
+        //let community = {name: "Community", slug: "community"}
+        {name: "Contact", slug: "contact"}
+    ]
 
-    export let menu = [home, about, community, contact]
 </script>
 
 <nav>
