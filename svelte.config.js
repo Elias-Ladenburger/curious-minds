@@ -11,9 +11,6 @@ const config = {
 			directives: {
 			  'script-src': ['self']
 			},
-			reportOnly: {
-			  'script-src': ['self']
-			}
 		  }
 	}
 };

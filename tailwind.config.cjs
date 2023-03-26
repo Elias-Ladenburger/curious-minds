@@ -4,7 +4,9 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'sans': ['League Spartan', 'Roboto', 'Helvetica', 'Arial', 'sans-serif']
+        'sans': ['Montserrat', 'League Spartan', 'Helvetica', 'Arial', 'sans-serif'],
+        'header': ['League Spartan', 'Montserrat', 'Helvetica', 'Arial', 'sans-serif'],
+        'body': ['Montserrat', 'Helvetica', 'Arial', 'sans-serif']
       },
     },
     colors: {
