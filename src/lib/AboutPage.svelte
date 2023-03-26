@@ -2,9 +2,9 @@
 
 </script>
 
-<h1 class="text-light text-3xl text-center">About us</h1>
+<h1 class="text-light text-3xl text-center my-5">About us</h1>
 <div class="">
-<div class="flex grid-cols-2 justify-center space-x-5 ml-5">
+<div class="md:flex grid-cols-2 justify-center md:space-x-5 ml-5 space-y-5 md:space-y-0 p-2">
     <div class="">
         <h2 class="text-2xl text-emphasis text-center">Who we are</h2>
         <p class="text-light">People with ambition to work on themselves and build something meaningful.
