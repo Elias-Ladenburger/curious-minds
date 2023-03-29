@@ -1,38 +1,49 @@
-# create-svelte
+# Curious Minds
+Curious Minds - The network for underutilized high potentials.
+We believe that everybody carries in them the potential for pretty awesome achievements. We also understand that it can be extraordinarily difficult to fulfill this potential alone.
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+## Prerequisites
+- node v17+
+- npm v9+
 
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
-
-## Developing
+## Getting Started
 
 Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
+Clone repository:
+```bash
+git clone git@github.com:Elias-Ladenburger/curious-minds.git
+```
+
+Install Dependencies:
+```bash
+npm install
+```
+
+Start development server
 ```bash
 npm run dev
 
-# or start the server and open the app in a new browser tab
+# or open the app in a new browser tab addtionaly
 npm run dev -- --open
 ```
 
-## Building
+The application should open at `http://localhost:5173`.
 
-To create a production version of your app:
+## Publish & Deploy Application
 
+Create a production version:
 ```bash
 npm run build
 ```
 
-You can preview the production build with `npm run preview`.
+Preview the production build:
+```bash
+npm run preview
+```
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+## Build with
+- Svelte
+- Typescript
+- Tailwind
+- Vite
