@@ -29,9 +29,7 @@
 			</button>
 		</div>
 	</div>
-	<ul
-		class=" {showOnMobile} list-reset md:flex justify-end flex-1 items-center bg-dark font-header"
-	>
+	<ul class=" {showOnMobile} list-reset md:flex justify-end flex-1 items-center font-header">
 		{#each menu as navElem}
 			<li class="mr-5">
 				<a

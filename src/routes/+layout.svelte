@@ -1,9 +1,10 @@
 <script>
+	import '../app.css';
 	import Header from '$lib/Header.svelte';
 	import Footer from '$lib/Footer.svelte';
 </script>
 
-<div class="bg-dark text-light">
+<div class="">
 	<Header />
 	<slot />
 	<Footer />
